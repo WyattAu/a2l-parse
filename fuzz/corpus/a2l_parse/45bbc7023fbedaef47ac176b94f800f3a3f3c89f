@@ -1,0 +1,22 @@
+/begin PROJECT p "d"
+/begmo_42
+
+/begin PRC
+/end o_t2
+
+/begin PRC
+/end MODcm 0 100
+E 0x720000 RL cm 0 100
+/eTIC
+/end MO720000 RL cm 0 100
+
+/begin PRC
+/end o_t2
+
+/begin PRC
+/end MOD z0207x000 RL cm 0 100
+E 0x720000 RL cm 0 100
+/eT
+/eTIC
+/end MODELE
+/end PROJECT

@@ -1,0 +1,5 @@
+/begin PROJECT ap "d"
+/begin MODULE mULEPROJECT x "y"
+/begin COMPU_METHOD cm "d" RAT_FUNC "%.0f" "-" COEFFS 5 1 0 0ê 0 1
+/endin OJECT ap "d"
+CHARACTLE m ap " in

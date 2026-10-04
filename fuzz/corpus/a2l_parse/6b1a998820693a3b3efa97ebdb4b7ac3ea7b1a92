@@ -1,0 +1,12 @@
+/begin PROJECT ap "d"
+/begin MODULE m "d"
+9e1degiIS/dT
+CneI MODULEPROJECT x "y"
+/begin KOMPU_METHOD cm "d" RUA_FTNC "%.0f" "-" COEFFS 1 1 0 1
+/endin PROJ
+/end PROJECECT x  COEFLS 0 1 0 0 dT
+CneI MODULEPROJECT x "y"
+/begin KOMPU_METHOD cm "d" RAT_NUNC "%.0f" "-" COEFFS  1 0 10 0 1
+/endin/end PROJECECT xq  COEFLS 0PRRIS/dT
+CneI MODULEPROJECT x "y"
+/begin KOMPU_METHOD cm "d" RUA_FTNC "%.0f" "-" COEFFFL/enTdin

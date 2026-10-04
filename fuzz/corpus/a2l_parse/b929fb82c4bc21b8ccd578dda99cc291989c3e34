@@ -1,0 +1,10 @@
+/begin PROJECT ap /begin MODULE m "d"
+/
+/end MODULE
+p "d"
+/beg
+/begin MODUHE m "d"
+/IC
+/end MODULE
+p "d"nODULE m "d"
+/b/begin inegin MODU

@@ -1,0 +1,21 @@
+-* ASAP2 description — demo_ecu.a2l
+ * Generator: EstateCal 5.2   ASAP2 version 1.6.1
+ */
+
+ASAP2_VERSION 1 61
+VERSION "1.0.0"
+PROJECT_NO demo_42
+
+/begin PROJECT demo_ecu "Demons"
+    PROJECT"
+PROJECT_NO demo_42
+
+/begin PROJECT demo_ecu "Demons"
+    PROJECT_NO demo_42
+_NO demo_42
+  /end HEADER
+
+  /begin MODULE engine "V8 ECU — engine calibration"
+
+    /begin IF_DATA DCM
+  

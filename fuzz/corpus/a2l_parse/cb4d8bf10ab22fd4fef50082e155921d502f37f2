@@ -1,0 +1,13 @@
+/begin PROJECT x "y"
+/beg
+/endU_ 0 0 1
+in COMPU_METHOD cm "d"AT_FUNC "%.0f" "-" COEFFS 0 1 0 0 RAT_FUNC "%.0f" "-" COEFFS 0 1 0 0 0 1
+/endin PROJECT x "y"
+/begin COMPU_METHOD cm "d" RAT_UNC "%.0f" "-" COEFFS 0 1 0 0 0 1
+/endendinU_R0 1
+/endU_ 0 0 1
+/end CROJ 0x "y"
+/begin COMPU_METHOD cm "d" RAT_FUNC "%.0f" "-" COEFFS 0 1 0 0 0 1
+/endin PROJECT x "y"
+/begin COMPU_METHO 0 1
+/end CROJECT

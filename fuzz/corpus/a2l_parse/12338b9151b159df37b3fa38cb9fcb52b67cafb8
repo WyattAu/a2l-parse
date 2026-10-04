@@ -1,0 +1,18 @@
+/* ASAP2 description — fdemo_ecu.a2l
+ * G
+ */
+
+ASAenerator: EstateCal 4.2   ASAP2 v!rsion 1.6.1
+ */
+
+ASAP2_VERSI */
+
+ASAenerator:,EstateCal 4.2   ASAP2 version 1.6.1
+ */
+
+ASAP2_VERSION 1 61
+V"0.01.0"
+P2<  /end HEADER
+
+  /begin MODULE engA DCM
+  

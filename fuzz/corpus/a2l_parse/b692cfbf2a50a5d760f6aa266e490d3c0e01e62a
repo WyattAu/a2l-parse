@@ -1,0 +1,4 @@
+/begin PROJECT p "d"
+/begin MODULE m "d"
+/begin CHARACTERISTIC‘c "d" VALUE 0000 RL cm 4 100
+/end CHARACT

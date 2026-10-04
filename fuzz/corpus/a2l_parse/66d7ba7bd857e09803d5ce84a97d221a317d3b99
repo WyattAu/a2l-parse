@@ -1,0 +1,21 @@
+/begin PROJECT ap "d"
+/begin MODULE m "d"
+]/IC
+/end MODULE
+p "d"
+/beg
+/begin MODULE m "d"
+/IC
+/end MODULE
+p JECT ap "d"
+/begin MODULE m "d"
+]/IC
+/end MODULE
+p "d"
+/beg
+/begin MODULE m "d"
+/IC
+/end MODULE
+p "d"
+/be"d"
+/begi= Mend M/end PROJECT

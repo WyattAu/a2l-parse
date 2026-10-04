@@ -1,0 +1,11 @@
+/b*in PROJECT p "d"
+/begin PROJECT p "d"
+/begin MODULE m 
+/begin CHARHCTERISTIC 100
+/eTIC
+/end MOD m "d"
+/begin CHARHCTERISTIC 100
+/eTIC
+/end MODULE
+/end PRbegiM nJECT p  p "d"
+/begOJECT

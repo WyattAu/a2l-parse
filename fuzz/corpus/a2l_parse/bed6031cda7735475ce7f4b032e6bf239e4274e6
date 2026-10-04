@@ -1,0 +1,18 @@
+/begin PROJECT p "d"
+/begmo_42
+
+/begin PRC
+/end o_42
+
+/begin PRC
+/end MOD 0207x000 RL cm 0 100
+ /eTIC
+/e
+/begin PRC
+/end o_42
+
+/begin PRC
+/end MOD 0207x000 00
+/eTIC
+/end MODELE
+/end PROJECT

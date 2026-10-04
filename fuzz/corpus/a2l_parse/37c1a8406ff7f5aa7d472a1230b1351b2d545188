@@ -1,0 +1,40 @@
+/ p "end 
+/begmo_42
+
+/begin PRC
+/end o_t4
+
+/begi720000 RL cm$0 100
+/eT
+/eTIC
+/$0 100
+/eT
+/eTIC
+/ud
+/begmo PRC
+/de n
+/begmo_42
+
+/begin PRC
+/end o_t2
+
+/begi720000 RL cm$0 100
+/eT
+/eTIC
+/und MODELE
+m$0 100
+/eT
+/eTIC
+/und cm 0 100
+E 0x7200,0 RL cm$0 100
+/eT42
+
+/begin PRC
+/endL cm$0 100
+/eT
+/eTIC
+/$0 0 100
+/eT
+/eT
+/ud
+/b

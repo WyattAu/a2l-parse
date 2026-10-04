@@ -1,0 +1,21 @@
+[package]
+name = "a2l-parse-fuzz"
+version = "0.0.0"
+publish = false
+edition = "2021"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+
+[dependencies.a2l-parse]
+path = ".."
+
+[[bin]]
+name = "a2l_parse"
+path = "fuzz_targets/a2l_parse.rs"
+test = false
+doc = false
+bench = false

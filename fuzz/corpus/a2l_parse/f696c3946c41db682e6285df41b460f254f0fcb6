@@ -1,0 +1,16 @@
+/begin PROJECT p "d"
+/begmo_42
+
+/begin PRC
+/end o_t2/begin PRC
+/end o_t2
+
+/OD/b/be 02070 100
+x720000 RL T p "d"
+/begmo_42
+
+/b{egd o_t2
+
+/begin PRC
+/end MOD/b/be cmzegin PO"y"b 0 100EE
+/end PROJECT

@@ -1,0 +1,27 @@
+/begin PROJECT p "d"
+/begmo_42
+
+/begin PRC
+/end o_t2 100
+
+/begin PRC
+/e/begin PROJECT p PCL/end MO/begmo_42
+
+/begin PRC
+/end o_t2/begin PRC
+/end o_t2
+/begin n PRC
+/e/begin PROJECT p PCL/end MO/begmo_42
+
+/begin PRC
+/end o_t2 100
+
+/begin PRC
+/end o_t2
+/begin PRC/end MOD/b/be cm 0 100
+/eT
+/eTIC
+/end MODILE
+/edn PD/b/be 02070{{{{{100
+E 0x720000 RL  T p"d"
+/begdn PROJECT

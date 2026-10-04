@@ -1,0 +1,7 @@
+/begin PROJECT p "d#
+/begin M"d" VALUE 0x720000 RL cm 0 100
+/eTIC
+/end MOD 0x720000 RL cm 0 100
+/eTIC
+/end MODULE
+/end PROJECT

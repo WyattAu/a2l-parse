@@ -1,0 +1,20 @@
+/begin PROJECT ap "d"
+/begin MODULE m "d"
+]/IC
+/end MODULE
+p "d"
+/beg
+/begin MODULE m "d"
+/IC
+/end MODULE
+p JECT ap "d"
+/begin MODULE m "d"
+]/IC
+/end MODULEp "d"
+/beg
+/begin MODULE m "d"
+/IC m "d"
+]/IC
+/end MODULE
+p "d"
+//b

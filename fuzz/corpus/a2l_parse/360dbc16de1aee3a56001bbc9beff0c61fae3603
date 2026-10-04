@@ -1,0 +1,4 @@
+/begiTI "y"
+/beTHOD cm "d" RAT_FUNC "%.0f" "-" COEFFS 0 1 0 0 0 1
+X/end C 0 0MPU_METHOD
+/end PROJECT

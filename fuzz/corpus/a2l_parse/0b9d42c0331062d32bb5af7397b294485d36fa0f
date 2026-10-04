@@ -1,0 +1,11 @@
+/begin PROJECT ap "d"
+/begin MODULE m "d"
+/IC
+/end MODULE
+p "d"
+/beg
+/begin MODULE m "d"
+/IC
+/end MODULE
+p "d"
+/begi= Mend M/end PROJECT

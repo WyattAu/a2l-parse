@@ -1,0 +1,5 @@
+/begin PROJECT ap "d"
+/begin MODULE m "d"
+ODULEPROJECT x "y"
+/begin COMPU_METHOD cm "d" RAT_FUNC "%.0f" "-" COEFFS 0èÿÿÿ T x  COEFFS 0 1 0 0 0 1
+/enTdin

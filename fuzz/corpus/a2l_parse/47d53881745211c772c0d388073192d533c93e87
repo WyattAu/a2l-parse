@@ -1,0 +1,13 @@
+/begin PROJECT ap "d"
+/begin MODULE m "d"
+/IC
+/end MODULE
+p "d"
+/beg
+/begin MODULE m "d"
+/IC
+/end MODULE
+p "d"
+/begin MODULE m "d"
+/beginDULE m "d"d CHRISTC
+/end M/end PROJECT

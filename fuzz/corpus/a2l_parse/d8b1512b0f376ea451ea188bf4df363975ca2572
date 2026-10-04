@@ -1,0 +1,4 @@
+/begin PROJECT ap "d"
+/begin MODULE m "d"
+/begin COMPU_METHOD cm "d" RAT_FUNC "%/begin PROJECT p "d"
+/begin PROJE "\\\\\\\

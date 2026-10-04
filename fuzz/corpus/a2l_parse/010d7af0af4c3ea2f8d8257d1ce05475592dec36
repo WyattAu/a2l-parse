@@ -1,0 +1,7 @@
+/begin PROJECT x "y"
+/begin AT_FUNC "%.0f" "-" CEOFFS 0 1 0 0 0 1
+/endin PROJECT x "y"
+/begin COMPU_METHOD cm_ROJECT
+ COMPU_ 0 0 1
+/endU_ 0 0 1
+/end CROJECT
