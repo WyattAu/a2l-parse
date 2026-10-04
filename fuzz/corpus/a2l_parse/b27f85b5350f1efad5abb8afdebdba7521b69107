@@ -1,0 +1,9 @@
+/begin PROJECT p Genera9 . A2 SAP2 version 1.6.1
+ */
+
+ASAP2_VERSION 1 6~1
+VERSION "1.0.0"
+PRO$* GeneratCal 4 . A2 SAP2 version 1.6.1
+ */
+
+ASA

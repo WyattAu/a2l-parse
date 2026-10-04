@@ -1,0 +1,7 @@
+/begin PROJECT p "d"
+/begin MODULE m "d"
+/begin L cm 0 10IC
+/end"y"
+/begin COMPU_METHOD cm VALUE AT_MP PRbegin MODULE m "d"
+
+0x72001

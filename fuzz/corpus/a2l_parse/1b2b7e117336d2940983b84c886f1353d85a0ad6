@@ -1,0 +1,43 @@
+/beLE m "d"
+/IC
+/end MODULE
+p JECT a
+/beCOEFFS_LI "d"
+/IC
+/end MODULE
+p "d"
+/bC
+/end MODULE
+p JECT a
+/beCOEFFS_LINEARLE m "d"
+/IC
+/end MODULE
+p "d"
+/be"d"IC
+/end MODULE
+p JECT a
+/beCOEFFS_LI "d"
+/IC
+/end MODULE
+p "d"
+/bC
+/end MODULE
+p JECT a
+/beCOEFFS_LINEARLE m dC
+/""I
+/end MODULE
+p "d"
+/be"d"
+/begi= Mend M/
+/end MODULE
+p "d"
+/be"d"
+/begi= MenIC
+/end MODULE
+p "d"
+/be"d"
+/begi= Mend M/
+/end MODULE
+p "d"
+/be"d"
+/begi= M/end PROJECT

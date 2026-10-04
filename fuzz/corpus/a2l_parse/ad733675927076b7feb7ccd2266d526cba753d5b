@@ -1,0 +1,7 @@
+/begin PROJECT p "d"
+/begmo_42
+
+/begin PISTIC c"d" 0 100
+/eTIC
+/end MODULE
+/end PROJECT

@@ -1,0 +1,6 @@
+/begin PROJECT ap "d"
+/begin MODULE m "d"
+/end"d" VALUE 0x720000 RL cm 0 100
+/end CHARACTERISTIC
+/end MODULE
+/end PROJECT

@@ -1,0 +1,12 @@
+-* ASAP2 description — demo_ecu.a2l
+ * Generator: EstateCal 4.2   ASAP2 version 1.6.1
+ */
+
+ASAP2_VERSION 1 61
+VERSION_NO demo_42
+
+/begin PRT_NO demo_42
+ 
+
+  /begin MOgin PROJECT demoPMETHOD_ecu gin IF_DATA DCM
+  

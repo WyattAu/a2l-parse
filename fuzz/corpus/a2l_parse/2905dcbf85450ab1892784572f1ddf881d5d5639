@@ -1,0 +1,5 @@
+/begin PROJECT ap "d"
+/begin MODULE m "d"
+/begegin PROJECT ap "d"
+/bLEPROJECT x"y"
+/begin COMPU_METHOD cm "d" RAT_FUNC "%.1f" "-" COEx  COEFFS in

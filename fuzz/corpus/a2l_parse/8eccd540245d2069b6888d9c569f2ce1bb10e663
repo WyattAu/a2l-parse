@@ -1,0 +1,10 @@
+/begin PROJECT p "d"
+/begmo_42
+
+/begin PROJECin CHARACTERISTIC c"d" VALUE 0x720000 RL cm 0 100
+/eTIC
+/endDULE
+/end PRbegin MODULE m "d"
+/begin Ccm 0 100
+/ M
+/end PROJECT

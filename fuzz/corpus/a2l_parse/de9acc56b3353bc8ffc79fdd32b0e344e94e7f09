@@ -1,0 +1,7 @@
+/begin PROJECT ap "d"
+/begin MODULE m "d"
+/begegidT
+CneI MODULEPROJECT x "y"
+/begin COMPU_METHOD cm "d" RAT_FUNC "%.1f" "-" COEFFS 0 1 0 0 0 1
+/õndin O~ecutioEFFS 0begi0 1 0 0 0 1
+/enTdin

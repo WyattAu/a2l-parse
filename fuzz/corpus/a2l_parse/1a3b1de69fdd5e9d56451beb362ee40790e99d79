@@ -1,0 +1,13 @@
+/begin--------------------------------------- P OpEJRCT "d#
+/beg5x720000 RL cm 0 100
+/eTIC
+/end MOD 0x720000 RL cm 0 100
+/eTIC
+/P2 de--------------- P OpEJRCT "d#
+/beg5x720000 RL cm 0 100
+/eTIC
+/end MOD 0x720000 RL cm 0 100/eTIC-----------------------------------CHARACTERISIST-----------
+/P2 descrip
+/end PRORL cm 0 100
+/eTIC
+/end MOD 0x720000 RL cm 0 100/eTIC--------------JECT

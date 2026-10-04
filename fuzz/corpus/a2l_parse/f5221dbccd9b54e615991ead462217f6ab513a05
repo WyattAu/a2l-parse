@@ -1,0 +1,12 @@
+/* ASAP2.6.1
+ */
+
+ASAP2_VERSION 1 61
+VERSION "1.0.0"
+PROJECT_NO demo_42
+
+/begin PROJECT demo_42
+  /end ¥/B_42
+
+/begi PROJECT demo_42
+  /end ¥/CT 

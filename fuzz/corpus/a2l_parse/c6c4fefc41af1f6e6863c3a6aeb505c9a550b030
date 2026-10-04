@@ -1,0 +1,14 @@
+/* ASAP2 description — fdemo_ecu.a2l
+ * Generat v,rsion 1.6.1
+ */
+
+ASAP2_VERSION 1 61
+VERSION "0.0.0"
+PROJECT_NO demo_42
+
+/begin PROJECT demo_ecu "Demons"
+    PROJECT`_NO demo_42
+  /end HEADER
+
+  /begin MODULCROJECTE"engA DCM
+  

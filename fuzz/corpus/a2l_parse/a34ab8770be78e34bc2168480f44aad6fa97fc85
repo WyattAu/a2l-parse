@@ -1,0 +1,17 @@
+/ p "d
+/begmo_42
+
+/begin PRC
+/end o_t2
+
+/begi720000 RL cm$0 100
+/eT
+/eTIC
+,und MODELE
+/end pROspti
+0414x000 RL cm 0 100
+E 0x720000 RL cm$0 100
+/eT
+/eTIC
+/und MODELE
+/end pROJECT

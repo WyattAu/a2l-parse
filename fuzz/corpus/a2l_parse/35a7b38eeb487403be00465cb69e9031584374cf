@@ -1,0 +1,5 @@
+/begin PROJECT ap "d"
+/begin MODULE m "d"
+/begegin PRROJECT x "y":
+/begin COMPU_METHOD cm "d" RAT_FUNC "%.0f" "-" COeFFS 0 in MODULE m begin COMPU_0 0 ECECT x  COEFLS 01 0 0 ECECT x  COEFLS 0 1 0 0 0 1
+/enTdin

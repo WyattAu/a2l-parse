@@ -1,0 +1,51 @@
+[package]
+name = "a2l-parse"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+authors = ["Wyatt Au <wyatt_au@protonmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/WyattAu/a2l-parse"
+homepage = "https://github.com/WyattAu/a2l-parse"
+documentation = "https://docs.rs/a2l-parse"
+description = "ASAP2/A2L ECU description parser — PROJECT/MODULE/CHARACTERISTIC/MEASUREMENT/RECORD_LAYOUT/COMPU_METHOD, calibration data model"
+readme = "README.md"
+keywords = ["a2l", "asap2", "calibration", "automotive", "parser"]
+categories = ["encoding", "parser-implementations", "no-std", "embedded"]
+exclude = [".github/", "fuzz/", "supply-chain/", "tests/files/"]
+
+# Layer model: docs/layers.md in WyattAu/engineering-standards.
+# L1 — substrate: the A2L description half of the estate's calibration
+# stack (sibling of xcp-core L1, which consumes ECU memory over CAN).
+# Zero estate-internal dependencies — legal at any layer, declared L1 as
+# the protocol-stack substrate.
+[package.metadata.layers]
+tier = "L1"
+
+# Zero runtime dependencies: the error type is hand-rolled (core::fmt),
+# the grammar is a hand-rolled scanner, and float parsing is `core`
+# str::parse. `no_std` + `alloc` throughout.
+[dependencies]
+
+[dev-dependencies]
+proptest = "1"
+
+[lints.rust]
+missing_docs = "deny"
+unsafe_code = "deny"
+
+# Tier A parser discipline: a2l-parse parses ECU description files that
+# originate from suppliers, version control, and hostile fuzzing. The
+# parser is "never panics on input": bounds are checked at every access
+# and errors are typed and exhaustive. The fuzz/dev targets lift these at
+# the file level with justification; the lib target never does.
+[lints.clippy]
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+indexing_slicing = "deny"
+undocumented_unsafe_blocks = "deny"
+
+[profile.release]
+lto = "fat"
+codegen-units = 1

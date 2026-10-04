@@ -1,0 +1,10 @@
+/begin PROJECT ap "d"
+/begin MODULE m "d"
+/IC
+/end MODULE
+p "d"
+/begin MODULE m "d"
+/"d"
+/IC
+/end MODUL00
+/end CHRIS

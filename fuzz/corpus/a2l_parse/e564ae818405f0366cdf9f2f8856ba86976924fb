@@ -1,0 +1,13 @@
+/* ASAP2 descript^ion — fdemo_ecu.a2l
+ * GenPROJEbegInmo_ecu "Estat.Cl4a e2   ASAP2 version 1.6.1
+ */
+
+QSAenerator: EstateCal 4.2   ASAP2 veION "0.0.0"
+PROJECT_NO demo_42
+
+/begin PROJECT demo_ecu "Demons"
+    PROJECT`_NO demo_42
+  /end HEADER
+
+  /begin MOLm 0 10gA DCM
+  

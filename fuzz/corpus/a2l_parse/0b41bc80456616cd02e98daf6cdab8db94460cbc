@@ -1,0 +1,10 @@
+/begin PROJECT ap "d"
+/begin MODULE m "d"
+/zbegegin PRRIS/dT
+CneI MODULEPROJECT x "y"
+/begin COMPU_METHOD cm "d" RAT_FUNC "%.0f" "-" COEFFS 0 1 0 0 0 1
+HARACT/ERIS/dT
+CneI'MODULEPROJECT x "y"
+/begin ôÿÿÿCOMPU_METHOD cm "d" RAT_FUNC "%.0f" "-" COEPROJ
+/end PROJECECT x  COEFFS 0 1 0 0 0 1
+/enTdin

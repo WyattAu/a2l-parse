@@ -1,0 +1,16 @@
+/begin PROJECT p "d#
+/begin M"d" VALUE 0x720000 RL cm 0 100
+/eTIC
+/end MOD 0xl cm 0 100
+/eTIC
+/begin PROJECT p "d"
+/begmo_42
+
+/begRL cm 0 100
+E 0x720000 RL cm 0 100
+//T
+/eTIC
+/end MODILE
+/end PRnd MODULE
+/end PROJECT
+JECT

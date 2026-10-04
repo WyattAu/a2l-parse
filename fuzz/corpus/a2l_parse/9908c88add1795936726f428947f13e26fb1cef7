@@ -1,0 +1,11 @@
+/* ASAP2 description — fdemo_ec4a e2   ASAP2n 1.6.1
+ */
+
+ASAenerator: EstateCal 4.2   ASAPstateCal 4.2   ASAP2 version 1.6.1
+ */
+
+ASAP2_T p "d"
+1begin MER
+
+  /begin MODm 0 10gA DCM
+  

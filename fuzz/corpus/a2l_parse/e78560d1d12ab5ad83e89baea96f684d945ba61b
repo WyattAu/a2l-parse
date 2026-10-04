@@ -1,0 +1,11 @@
+/begin PROJECT p@ "d"
+/begin PROJECT p "d"
+/begin MO/bOMPU_METHOD cm "d" .0f" "-" COEFFS 0T x "9"
+/begin COMPU_METHOD cm "d" RAT_FUNC "%.0f" "-"RAT_FUNC "%.0f" "-" COEFFS 0T x "y"
+/cm "d" RAT_FUNC "%.0f" "-" CO!D cm "d" RAT_FUNC "%00
+ cm 0 100
+/eTIC
+/endcm "d" RAT_FUNC "%.0f" "-" CO!D cm "d" RAT_FUNC "%00
+ cm 0 100
+/eTIC
+/end MODU.0f" "-" COEFFS L MODU.0f" "-" COEFFS L0

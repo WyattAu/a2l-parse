@@ -1,0 +1,17 @@
+/* ASAP2 descr_ecu.a2l
+ * Generator: EstateCal 4.2   ASAP2 version 1.6.1
+ */
+
+ASAP2_VERSION 1 61
+VERSION "1.0.0"
+PROJECT_NO demo_42
+
+/begin PROJECT demo_ecu "Demons project — two-ECU harness"
+
+  /begin HEADER "Project header"
+    VERSION "1.0.0"
+    PROJECT_NO demo_
+  /begin MODULE engine "V8 ECU — engine c�libration"
+
+    /begin IF_DATA 
+  

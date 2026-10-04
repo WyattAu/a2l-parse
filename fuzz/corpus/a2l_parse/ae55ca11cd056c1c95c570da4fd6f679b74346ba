@@ -1,0 +1,20 @@
+/begin PROJECT p "d"
+/begmo_42
+
+/begin PRC
+/en
+/begin PRC
+/e/beg2
+
+/begin PRC
+/end o_t2 100
+
+/begin P100
+
+/begin PRC
+/end o_t2
+/begin PRCnO Md/eD/b/be cm 0 100
+/eT
+/eTIC
+/end MODILE
+/JECT

@@ -1,0 +1,4 @@
+/begin PROJECT ap "d"
+/begin MODULE ULEPROJECT x "y"
+/begin COMPU_METHOD cm "d" RAT_FUNC "%.1f" "-" CT x  COEFFS 0 1A 0 0 0 1
+/enTdin

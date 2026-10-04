@@ -1,0 +1,13 @@
+/begin PROJECT p "d"
+/begmo_42
+
+/begin PRC
+/end o_t2 100
+
+/begin PRC
+/end o_t2
+
+/begin P0
+
+/end MODILE
+/end PROJECT

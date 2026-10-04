@@ -1,0 +1,13 @@
+p "d"
+/begiNC "%.0f" "-"RAT_FUNC/begin PROJECT p "d"
+/begiNC "%.0f" "-"RAT_FUNC "%.0f" "-" COEFFS 0T x "y"
+/cm "d" RAT_F "%.0f" "-" COEFFS 0T x "y"
+/cm "d" RAT_" COEFFS 0T x "y"
+/cm "d" RAT_F "%.0f" "-" COEFFS 0T x "y"
+/cm "d" RAT_FUNC "%.0f" "-" COD cm "d" RAT_FUNC "%00
+ cm 0 100
+/eTIC
+/end MODU.0fFUNC "%.0f" "-" COD cm "d" RAT_FUNC "%00
+ cm 0 100
+/eTIC
+/end MODU.0f" "-" CO%.0f" "

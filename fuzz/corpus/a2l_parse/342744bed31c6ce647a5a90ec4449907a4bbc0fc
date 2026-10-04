@@ -1,0 +1,10 @@
+/begin PROJECT p "d"
+/beOJECT p "d"
+/begin PROJECT(p "d"
+/endinbegin MO/begDULE -* ASAP2 description — demo_ecu.a2l
+ * Generator: EstateCal 4.2   ASAP2 version 1.6.1
+ */
+
+AOECJ demo_ecu "JECT_NO demo_42
+  /em "d"
+/begH iRnd HEADnCAEA

@@ -1,0 +1,10 @@
+/* ASAP2 description — fdemo_ecu.a2l
+ * GeneION "1.0.0"
+PROJECT_NO /begin PROJECT p "d"
+/begin MODULE m "d"
+/begin CHAx720000 RL cm 0 100
+/demo_42
+
+/begi JPROneTIC
+/end"y"
+/begE

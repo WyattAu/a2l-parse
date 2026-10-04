@@ -1,0 +1,17 @@
+/* "
+/begmo_42
+
+/begRL cm ALUE 0x720000d"
+/begmo_42
+
+/begRL cm 0 100
+E 0x720 100
+E 0x720000 RL cm 0 100
+//T
+/eTIC
+/end MODILE
+/end PRnd MOscription mo_ecDULE
+/end PROJECT
+JEC
+ * Ge
+nerator: ION "1.
