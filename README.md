@@ -1,19 +1,19 @@
 # a2l-parse
 
-ASAP2/A2L ECU description parser — PROJECT/MODULE/CHARACTERISTIC/
+ASAP2/A2L ECU description parser: PROJECT/MODULE/CHARACTERISTIC/
 MEASUREMENT/RECORD_LAYOUT/COMPU_METHOD, calibration data model.
 
-**Layer:** L1 — substrate · **Estate deps:** zero · **Runtime deps:**
+**Layer:** L1: substrate · **Estate deps:** zero · **Runtime deps:**
 none · `no_std` + `alloc` (CI exercises `thumbv7em-none-eabihf`).
 
 ## What's here
 
 | Module | Contents |
 |---|---|
-| `model` | [`A2lProject::parse`](https://docs.rs/a2l-parse/latest/a2l_parse/struct.A2lProject.html) — the parsed database (`project`, `modules`); `A2lModule` with `characteristic_by_name` / `measurement_by_name` (plus record-layout and compu-method lookups); `Characteristic` (`r#type`: Value/Curve/Map/ValBlk/Ascii, address, deposit, max_diff, conversion, limits); `Measurement` (datatype, `ECU_ADDRESS`, conversion); `RecordLayout` (`FNC_VALUES` position + datatype); `CompuMethod` (LINEAR/RAT_FUNC/TABLE/IDENTITY, `COEFFS`/`COEFFS_LINEAR`/`COMPU_TAB_REF`, unit) with `to_linear()` — the raw→physical reduction every calibration consumer wants |
-| `lexer` | Hand-rolled scanner: identifiers, `/begin`-style keywords, decimal/hex/float literals, quoted strings with C-style escapes (multi-byte UTF-8 safe), `/* */` and `//` comments — `get()`-only byte access, total by construction |
-| `parser` | Keyword-driven, block-structured recursive descent: consumes the required positionals of the six core blocks, captures the optional keywords the model needs, and **skips** everything else — unknown optional keywords, unknown `/begin … /end` sub-blocks (AXIS_DESCR, IF_DATA braces, vendor extensions) |
-| `error` | `A2lError` — typed, exhaustive, with 1-based line numbers |
+| `model` | [`A2lProject::parse`](https://docs.rs/a2l-parse/latest/a2l_parse/struct.A2lProject.html): the parsed database (`project`, `modules`); `A2lModule` with `characteristic_by_name` / `measurement_by_name` (plus record-layout and compu-method lookups); `Characteristic` (`r#type`: Value/Curve/Map/ValBlk/Ascii, address, deposit, max_diff, conversion, limits); `Measurement` (datatype, `ECU_ADDRESS`, conversion); `RecordLayout` (`FNC_VALUES` position + datatype); `CompuMethod` (LINEAR/RAT_FUNC/TABLE/IDENTITY, `COEFFS`/`COEFFS_LINEAR`/`COMPU_TAB_REF`, unit) with `to_linear()`: the raw→physical reduction every calibration consumer wants |
+| `lexer` | Hand-rolled scanner: identifiers, `/begin`-style keywords, decimal/hex/float literals, quoted strings with C-style escapes (multi-byte UTF-8 safe), `/* */` and `//` comments: `get()`-only byte access, total by construction |
+| `parser` | Keyword-driven, block-structured recursive descent: consumes the required positionals of the six core blocks, captures the optional keywords the model needs, and **skips** everything else: unknown optional keywords, unknown `/begin … /end` sub-blocks (AXIS_DESCR, IF_DATA braces, vendor extensions) |
+| `error` | `A2lError`: typed, exhaustive, with 1-based line numbers |
 
 ## Guarantees
 
@@ -28,7 +28,7 @@ none · `no_std` + `alloc` (CI exercises `thumbv7em-none-eabihf`).
 - **Bounded**: `/begin` nesting deeper than [`MAX_DEPTH`](https://docs.rs/a2l-parse/latest/a2l_parse/#constants)
   is a typed error, never a stack overflow.
 - **Compu-method math**: `to_linear()` reduces `RAT_FUNC` only when the
-  conversion is genuinely linear (`d = e = a = 0`, `f ≠ 0` — slope from
+  conversion is genuinely linear (`d = e = a = 0`, `f ≠ 0`: slope from
   the x-coefficient), applies `COEFFS_LINEAR` directly, and treats
   `IDENTITY` as `f(x) = x`; TABLE and irreducibly-rational methods return
   `None` rather than a wrong approximation.
@@ -81,4 +81,4 @@ checked in CI.
 
 ## License
 
-MIT OR Apache-2.0 — see LICENSE-MIT and LICENSE-APACHE.
+MIT OR Apache-2.0: see LICENSE-MIT and LICENSE-APACHE.

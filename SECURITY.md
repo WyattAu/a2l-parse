@@ -1,4 +1,4 @@
-# Security Policy — a2l-parse
+# Security Policy: a2l-parse
 
 ## Supported versions
 
