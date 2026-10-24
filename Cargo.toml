@@ -1,6 +1,6 @@
 [package]
 name = "a2l-parse"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 rust-version = "1.85"
 authors = ["Wyatt Au <wyatt_au@protonmail.com>"]
@@ -8,7 +8,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/WyattAu/a2l-parse"
 homepage = "https://github.com/WyattAu/a2l-parse"
 documentation = "https://docs.rs/a2l-parse"
-description = "ASAP2/A2L ECU description parser — PROJECT/MODULE/CHARACTERISTIC/MEASUREMENT/RECORD_LAYOUT/COMPU_METHOD, calibration data model"
+description = "ASAP2/A2L ECU description parser: PROJECT/MODULE/CHARACTERISTIC/MEASUREMENT/RECORD_LAYOUT/COMPU_METHOD, calibration data model"
 readme = "README.md"
 keywords = ["a2l", "asap2", "calibration", "automotive", "parser"]
 categories = ["encoding", "parser-implementations", "no-std", "embedded"]
